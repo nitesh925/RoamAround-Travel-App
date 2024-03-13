@@ -10,5 +10,6 @@ export default defineConfig({
     },
     
   },
+  base: "/RoamAround-Travel-App/",
   plugins: [react()],
 })
