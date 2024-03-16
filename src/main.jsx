@@ -5,6 +5,8 @@ import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter basename={"/RoamAround-Travel-App/"}>
+      <App />
+    </BrowserRouter>
   </React.StrictMode>
 );
